@@ -1,11 +1,11 @@
-# Todas as funções se concentraram aqui
-import funcoes.somar as f
+# Todas as funções devem ser colocadas no arquivo __init__.py
+import funcoes
 
 # Para inserir sua funcionalidade nova, apenas coloque o nome dela na chave e importe a função para o valor, sem os paranteses.abs
 
 funcoes = {
-  "Somar": f.somar,
-  "Subtrair": "teste"
+  "Somar": funcoes.somar
+  # "Subtrair": funcoes.subtrair
 }
 
 # Não mexer daqui pra baixo, está funcionando!
@@ -13,7 +13,7 @@ funcoes = {
 def menu_calculadora():
   while True: 
     n = 1
-    opcoes = []
+    opcoes = ["0"]
     for nome in funcoes:
       print(f"{n}.{nome}")
       opcoes.append(n)
