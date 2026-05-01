@@ -6,7 +6,7 @@ import funcoes
 funcoes = {
   "Somar": funcoes.somar,
   "Raiz Quadrada": funcoes.Raiz_Quadrada,
-  "Multiplicar": funcoes.multiplicar
+  "Calcular IMC": funcoes.calcularimc
   # "Subtrair": funcoes.subtrair
 }
 
