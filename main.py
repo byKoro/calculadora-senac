@@ -4,9 +4,11 @@ import funcoes
 # Para inserir sua funcionalidade nova, apenas coloque o nome dela na chave e importe a função para o valor, sem os paranteses.abs
 
 funcoes = {
-  "Somar": funcoes.somar ,
   "Moda": funcoes.moda,
-  "Multiplicar": funcoes.multiplicar
+  "Somar": funcoes.somar,
+  "Raiz Quadrada": funcoes.Raiz_Quadrada,
+  "Calcular IMC": funcoes.calcularimc,
+  "Resto da divisão": funcoes.Resto_da_divisao
   # "Subtrair": funcoes.subtrair
 }
 
