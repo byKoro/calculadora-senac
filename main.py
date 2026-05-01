@@ -6,6 +6,7 @@ import funcoes
 funcoes = {
   "Moda": funcoes.moda,
   "Somar": funcoes.somar,
+  "Valor Absoluto": funcoes.valor_absoluto,
   "Raiz Quadrada": funcoes.Raiz_Quadrada,
   "Calcular IMC": funcoes.calcularimc,
   "Resto da divisão": funcoes.Resto_da_divisao
