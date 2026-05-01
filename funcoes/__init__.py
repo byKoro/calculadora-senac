@@ -2,3 +2,4 @@
 from .somar import somar
 from .Raiz_Quadrada import *
 from .calcularimc import calcularimc
+from .Resto_da_divisao import Resto_da_divisao

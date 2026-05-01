@@ -1,4 +1,4 @@
-def Resto_de_divisao():
+def Resto_da_divisao():
     while True:
         print("Resto de divisão: ")
         print("Digite 0 se quiser sair")
@@ -13,4 +13,3 @@ def Resto_de_divisao():
             resto = n1 % n2
             print(f"Resto da divisao: {resto}")
             break
-Resto_de_divisao()
