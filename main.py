@@ -5,7 +5,8 @@ import funcoes
 
 funcoes = {
   "Somar": funcoes.somar,
-  "Multiplicar": funcoes.multiplicar
+  "Multiplicar": funcoes.multiplicar,
+  "Valor Absoluto": funcoes.valor_absoluto
   # "Subtrair": funcoes.subtrair
 }
 
