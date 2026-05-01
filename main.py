@@ -4,6 +4,7 @@ import funcoes
 # Para inserir sua funcionalidade nova, apenas coloque o nome dela na chave e importe a função para o valor, sem os paranteses.abs
 
 funcoes = {
+  "Moda": funcoes.moda,
   "Somar": funcoes.somar,
   "Raiz Quadrada": funcoes.Raiz_Quadrada,
   "Calcular IMC": funcoes.calcularimc,
